@@ -1,0 +1,102 @@
+.banner{
+    position: relative;
+    vertical-align: middle;
+    border-radius: 25px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../../assets/home_cover.png');
+    background-position: center;
+    background-size: cover;
+    height: 223px;
+    padding: 20px;
+    max-width: 95%;
+    margin: 43px 5%;    
+}
+
+.banner p  {
+    position: absolute;
+    bottom: 40%;
+    right: 25%;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+
+.banner_about{
+    position: relative;
+    border-radius: 25px;
+    height: 223px;
+    max-width: 95%;
+    margin: 43px 5%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../../assets/about_cover.png');
+    background-position: center;
+    background-size: cover;
+}
+
+@media screen and (min-width: 768px) and (max-width: 980px){
+    .banner{
+        position: relative;
+        vertical-align: middle;
+        border-radius: 25px;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../../assets/home_cover.png');
+        background-position: center;
+        background-size: cover;
+        height: 223px;
+        padding: 20px;
+        max-width: 95%;
+        margin: 20px 5%;    
+    }
+    
+    .banner_about{
+        position: relative;
+        border-radius: 25px;
+        height: 223px;
+        max-width: 95%;
+        margin: 20px 5%;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../../assets/about_cover.png');
+        background-position: center;
+        background-size: cover;
+    }
+    .banner p  {
+        position: absolute;
+        bottom: 40%;
+        right: 15%;
+        color: white;
+        font-size: 40px;
+        text-align: center;
+    }
+    
+}
+    
+@media screen and (max-width: 768px){
+    .banner{
+        position: relative;
+        border-radius: 15px;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../../assets/Banner.png');
+        background-position: center;
+        background-size: cover;
+        height: 120px;
+        padding: 20px;
+        max-width: 95%;
+        margin: 0px 5%; 
+   
+    }
+    
+    .banner_about{
+        position: relative;
+        border-radius: 15px;
+        height: 250px;
+        max-width: 95%;
+        margin: 0px 5%;    
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../../assets/aboutBanner.png');
+        background-position: center;
+    }
+    
+    .banner p {
+        position: absolute;
+        max-width:75%;
+        top: 20%;
+        left: 5%;
+        font-size: 1.7rem;
+        font-weight: 500;
+        color: white;
+    }
+}

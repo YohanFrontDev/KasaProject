@@ -1,0 +1,24 @@
+header {
+    margin: 2% 5%;
+}
+
+.header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 68px;
+    max-width: 95%;
+}
+
+@media screen and (max-width: 768px){
+    .header a img{
+        width: 70%;
+    } 
+    .nav {
+        width: 40%;
+    }
+}
+@media screen and (min-width: 768px)and (max-width: 900px){
+     
+}
+
