@@ -94,7 +94,11 @@
 
 }
 @media screen and (min-width: 768px)and (max-width: 900px){
-     
+    .announce_content_infos h1{
+        font-size: 28px;
+        margin-bottom: 2%;
+        font-weight: 500;
+    }
 }
 
 @media screen and (max-width: 768px){
@@ -107,6 +111,11 @@
     .announce_content_infos {
         font-size: 12px;
         margin-bottom: 2%;
+    }
+    .announce_content_infos h1{
+        font-size: 20px;
+        margin-bottom: 2%;
+        font-weight: 500;
     }
 
     .announce_content_button {

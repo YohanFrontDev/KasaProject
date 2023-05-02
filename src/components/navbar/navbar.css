@@ -32,11 +32,10 @@ ul {
 
 @media screen and (max-width: 768px){
 
-
     .nav_list{
         display: flex;
         justify-content: flex-end;
-        gap: 20px;
+        gap: 10px;
         font-size: clamp(12px, 2.5vw, 24px);
     }
     

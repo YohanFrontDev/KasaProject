@@ -73,7 +73,7 @@
         background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../../assets/Banner.png');
         background-position: center;
         background-size: cover;
-        height: 120px;
+        height: 100px;
         padding: 20px;
         max-width: 95%;
         margin: 0px 5%; 
@@ -83,7 +83,7 @@
     .banner_about{
         position: relative;
         border-radius: 15px;
-        height: 250px;
+        height: 230px;
         max-width: 95%;
         margin: 0px 5%;    
         background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../../assets/aboutBanner.png');
@@ -95,7 +95,7 @@
         max-width:75%;
         top: 20%;
         left: 5%;
-        font-size: 1.7rem;
+        font-size: 1.2rem;
         font-weight: 500;
         color: white;
     }
