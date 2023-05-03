@@ -8,6 +8,7 @@ import Footer from "../../components/footer/Footer";
 import Dropdown from '../../components/dropdown/Dropdown';
 import greyStar from '../../assets/grey_star.png';
 import redStar from '../../assets/red_star.png';
+import NotFound from '../notFound/NotFound';
 
 
 export default function Announces() {
@@ -16,7 +17,7 @@ export default function Announces() {
 
 	const idAnnounces = useParams('id').id;
 	const dataCurrentAnnounces = datas.filter(data => data.id === idAnnounces);
-
+	
 	useEffect(() => {
 		const dataCurrentAnnounces = datas.filter(data => data.id === idAnnounces);
 		setImageSlider(dataCurrentAnnounces[0].pictures);
@@ -26,6 +27,8 @@ export default function Announces() {
 	const rating = dataCurrentAnnounces[0].rating;
 	const description = dataCurrentAnnounces[0].description;
 	const equipments = dataCurrentAnnounces[0].equipments;
+
+	if (!name) return <NotFound />;
 
 	return (
 		<>
